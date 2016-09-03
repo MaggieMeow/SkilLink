@@ -77,6 +77,7 @@ if ( post_password_required() ) {
 			'url' => '<p class="comment-form-url"><input class="form-control" id="url" name="url" type="text" placeholder="' . __( 'Website', 'docpress' ) . '" value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" /></p>',
 		);
 
+
 		$comment_args = array(
 			'comment_field' =>  '<p class="comment-form-comment"><textarea class="form-control" id="comment" name="comment" cols="45" rows="8" placeholder="' . __( 'Comment', 'docpress' ) . '" aria-required="true">' .
 			'</textarea></p>',

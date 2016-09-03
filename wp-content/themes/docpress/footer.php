@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="row">
 			<?php if ( is_active_sidebar( 'footer-one-widgets' ) ) : ?>
-				<div class="col-xs-12 col-sm-3 col-lg-3">
+				<div class="col-xs-12 col-sm-12 col-lg-12">
 					<?php dynamic_sidebar( 'footer-one-widgets' ); ?>
 				</div>
 			<?php endif; ?>
@@ -22,9 +22,7 @@
 				</div>
 			<?php endif; ?>
 				<div class="col-xs-12 col-sm-12 col-lg-12">
-					<div class="footer-credits text-center">
-						<?php do_action('docpress_credits'); ?>
-					</div>
+					
 				</div>
 			</div>
 		</div>
